@@ -1,0 +1,175 @@
+body
+{
+    background-image: url(../Images/herbe-verte.jpg);
+}
+
+.Terrain
+{
+    width: 250px;
+    height: 700px;
+    border: 5px solid white;
+    position: absolute;
+    top: 50px;
+    left: 50px;
+}
+
+.But
+{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: solid white 5px;
+    left: 100px;
+    top: -32px;
+}
+
+.But1
+{
+    position: absolute;
+    width: 40px;
+    height: 20px;
+    border: solid white 5px;
+    left: 100px;
+    top: 700px;
+}
+
+.Point_surface
+{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border: solid white 5px;
+    border-radius: 20px;
+    background-color: white;
+    left: 118px;
+    top: 47px;
+}
+
+.surface
+{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    border: solid white 5px;
+    left: 83px;
+    top: -2px;
+}
+
+.Ligne_millieu
+{
+    position: absolute;
+    width: 250px;
+    height: 5px;
+    border-bottom: solid white 5px;
+    left: 3px;
+    top:350px;
+}
+
+.Point_Centre
+{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border: solid white 5px;
+    border-radius: 20px;
+    background-color: white;
+    left: 118px;
+    top: 351px;
+}
+
+.Penalti
+{
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    border: solid white 5px;
+    left: 60px;
+    top: -3px;
+}
+
+.centre
+{
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    border: solid white 5px;
+    border-radius: 50px;
+    left: 95px;
+    top: 327px;
+}
+
+.surface1
+{
+    position: absolute;
+    width: 80px;
+    height: 20px;
+    border: solid white 5px;
+    left: 83px;
+    top: 674px;
+}
+
+.Point_surface1
+{
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    border: solid white 5px;
+    border-radius: 20px;
+    background-color: white;
+    left: 118px;
+    top: 640px;
+}
+
+.Penalti1
+{
+    position: absolute;
+    width: 130px;
+    height: 80px;
+    border: solid white 5px;
+    left: 60px;
+    top: 613px;
+}
+
+.corner
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: solid white 5px;
+    border-radius: 0 0 20px 0;
+    left: -4px;
+    top: -5px;
+}
+
+.corner1
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: solid white 5px;
+    border-radius: 0 0 0 20px;
+    left: 226px;
+    top: -5px;
+}
+
+.corner2
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: solid white 5px;
+    border-radius: 0 20px 0 0;
+    left: -4px;
+    top: 675px;
+}
+
+.corner3
+{
+    position: absolute;
+    width: 20px;
+    height: 20px;
+    border: solid white 5px;
+    border-radius: 20px 0 0 0;
+    left: 226px;
+    top: 675px;
+}
