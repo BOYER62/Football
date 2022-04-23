@@ -1,0 +1,12 @@
+@media screen and (min-width:600px) 
+{
+    body
+    {
+    transform: rotate(-90deg);
+    }
+
+    .terrain
+    {
+        width: 100%;
+    }
+}

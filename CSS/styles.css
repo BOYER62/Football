@@ -1,36 +1,41 @@
 body
 {
     background-image: url(../Images/herbe-verte.jpg);
+    border: 5px solid black;
+    position:relative;
+    margin-left:10%;
+    margin-right: 10%;
+    margin-top: 10%;
+    margin-bottom: 10%;
 }
 
 .Terrain
 {
-    width: 250px;
-    height: 700px;
+    width: 100%;
+    height: 650px;
     border: 5px solid white;
-    position: absolute;
-    top: 50px;
-    left: 50px;
 }
 
 .But
 {
-    position: absolute;
-    width: 40px;
+    position:absolute;
+    width: 10%;
     height: 20px;
+    margin-left: -5%;
     border: solid white 5px;
-    left: 100px;
-    top: -32px;
+    left: 50%;
+    top: -29px;
 }
 
 .But1
 {
     position: absolute;
-    width: 40px;
+    width: 10%;
     height: 20px;
+    margin-left: -5%;
     border: solid white 5px;
-    left: 100px;
-    top: 700px;
+    left: 50%;
+    top: 656px;
 }
 
 .Point_surface
@@ -38,10 +43,12 @@ body
     position: absolute;
     width: 3px;
     height: 3px;
+    margin-left: -1.5px;
+    margin-top: -1.5px;
     border: solid white 5px;
     border-radius: 20px;
     background-color: white;
-    left: 118px;
+    left: 50%;
     top: 47px;
 }
 
@@ -50,19 +57,22 @@ body
     position: absolute;
     width: 80px;
     height: 20px;
+    margin-top: -10px;
+    margin-left: -40px;
     border: solid white 5px;
-    left: 83px;
-    top: -2px;
+    left: 50%;
+    top: 10px;
 }
 
 .Ligne_millieu
 {
     position: absolute;
-    width: 250px;
+    width: 101%;
     height: 5px;
+    margin-top: -2.5px;
     border-bottom: solid white 5px;
     left: 3px;
-    top:350px;
+    top: 50%;
 }
 
 .Point_Centre
@@ -70,11 +80,13 @@ body
     position: absolute;
     width: 3px;
     height: 3px;
+    margin-top: -1.5px;
+    margin-left: -1.5px;
     border: solid white 5px;
     border-radius: 20px;
     background-color: white;
-    left: 118px;
-    top: 351px;
+    left: 50%;
+    top: 50%;
 }
 
 .Penalti
@@ -82,8 +94,9 @@ body
     position: absolute;
     width: 130px;
     height: 80px;
+    margin-left: -65px;
     border: solid white 5px;
-    left: 60px;
+    left: 50%;
     top: -3px;
 }
 
@@ -92,10 +105,12 @@ body
     position: absolute;
     width: 50px;
     height: 50px;
+    margin-top: -25px;
+    margin-left: -25px;
     border: solid white 5px;
     border-radius: 50px;
-    left: 95px;
-    top: 327px;
+    left: 50%;
+    top: 50%;
 }
 
 .surface1
@@ -103,9 +118,10 @@ body
     position: absolute;
     width: 80px;
     height: 20px;
+    margin-left: -40px;
     border: solid white 5px;
-    left: 83px;
-    top: 674px;
+    left: 50%;
+    top: 631px;
 }
 
 .Point_surface1
@@ -113,11 +129,13 @@ body
     position: absolute;
     width: 3px;
     height: 3px;
+    margin-top: -1.5px;
+    margin-left: -1.5px;
     border: solid white 5px;
     border-radius: 20px;
     background-color: white;
-    left: 118px;
-    top: 640px;
+    left: 50%;
+    top: 603px;
 }
 
 .Penalti1
@@ -125,9 +143,10 @@ body
     position: absolute;
     width: 130px;
     height: 80px;
+    margin-left: -65px;
     border: solid white 5px;
-    left: 60px;
-    top: 613px;
+    left: 50%;
+    top: 570px;
 }
 
 .corner
@@ -135,10 +154,12 @@ body
     position: absolute;
     width: 20px;
     height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
     border: solid white 5px;
     border-radius: 0 0 20px 0;
-    left: -4px;
-    top: -5px;
+    left: 3%;
+    top: 1.5%;
 }
 
 .corner1
@@ -146,10 +167,12 @@ body
     position: absolute;
     width: 20px;
     height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
     border: solid white 5px;
     border-radius: 0 0 0 20px;
-    left: 226px;
-    top: -5px;
+    left: 97%;
+    top: 1.5%;
 }
 
 .corner2
@@ -157,10 +180,12 @@ body
     position: absolute;
     width: 20px;
     height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
     border: solid white 5px;
     border-radius: 0 20px 0 0;
-    left: -4px;
-    top: 675px;
+    left: 2%;
+    top: 649px;
 }
 
 .corner3
@@ -168,8 +193,10 @@ body
     position: absolute;
     width: 20px;
     height: 20px;
+    margin-left: -10px;
+    margin-top: -10px;
     border: solid white 5px;
     border-radius: 20px 0 0 0;
-    left: 226px;
-    top: 675px;
+    left: 97%;
+    top: 641px;
 }
