@@ -5,8 +5,23 @@
     transform: rotate(-90deg);
     }
 
-    .terrain
+    .Terrain
     {
-        width: 100%;
+        width: 98%;
+    }
+
+    .But
+    {
+        width: 50px;
+    }
+
+    .But1
+    {
+        width: 50px;
+    }
+
+    .corner, .corner2
+    {
+        left : 2%;
     }
 }
