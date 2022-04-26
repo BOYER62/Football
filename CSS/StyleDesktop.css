@@ -2,26 +2,349 @@
 {
     body
     {
-    transform: rotate(-90deg);
+    transform: rotate(90deg);
     }
 
     .Terrain
+
     {
-        width: 98%;
+        width: 50%;
+        height: 570px;
     }
 
     .But
     {
         width: 50px;
+        margin-left: -25px;
+        left: 25%;
     }
 
     .But1
     {
         width: 50px;
+        margin-left: -25px;
+        left: 25%;
+        top: 575px;
+    }
+
+    .surface1
+    {
+        top: 550px;
+        left: 25%;
     }
 
     .corner, .corner2
     {
         left : 2%;
     }
+
+    .corner
+    {
+        top: 2%;
+    }
+
+    .corner2
+    {
+        top: 560px;
+    }
+
+    .Penalti1
+    {
+        left: 25%;
+        top: 489px;
+        margin-left: -65px;
+    }
+    
+    .Penalti
+    {
+        left: 25%;
+    }
+
+    .surface
+    {
+        left: 25%;
+    }
+
+    .Ligne_millieu
+    {
+        width: 50%;
+    }
+
+    .centre, .Point_Centre, .Point_surface1, .Point_surface
+    {
+        left: 25%;
+    }
+
+    .Point_surface1
+    {
+        top: 520px;
+    }
+
+    .corner3
+    {
+        left: 48%;
+        top: 560px;
+    }
+
+    .corner1
+    {
+        left: 48%;
+        top: 9.5px;
+    }
+
+    .Joueur1, .Joueur2, .Joueur3, .Joueur4, .Joueur5, .Joueur6, .Joueur7, .Joueur8, .Joueur9, .Joueur10, .Joueur11, .Joueur12, .Joueur13, .Joueur14, .Joueur15, .Joueur16, .Joueur17, .Joueur18, .Joueur19, .Joueur20, .Joueur21, .Joueur22
+    {
+        border: 5px solid black;
+        zoom: 200%;
+    }
+
+    /*---------------------------Position des joueurs---------------------------------------------*/
+
+    .Position1
+    {
+        border: 5px solid blue;
+        position: absolute;
+        top : -17px;
+        left : 20%;
+    }
+
+    .Position2
+    {
+        border: 5px solid blue;
+        position: absolute;
+        top : -0px;
+        left : 40%;
+    }
+
+    
+
+    .Joueur3
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 40px;
+    left : 62%;
+}
+
+.Joueur4
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 78px;
+    left : 20%;
+}
+
+.Joueur5
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 78px;
+    left : 73%;
+}
+
+.Joueur6
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 130px;
+    left : 30%;
+}
+
+.Joueur7
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 130px;
+    left : 60%;
+}
+
+.Joueur8
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 170px;
+    left : 82%;
+}
+
+.Joueur9
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 170px;
+    left : 10%;
+}
+
+.Joueur10
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 194px;
+    left : 35%; 
+}
+
+.Joueur11
+{
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 194px;
+    left : 56%; 
+}
+/*------------------------------------2eme equipe----------------------------------------------------*/
+.Joueur12
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 431px;
+    left : 46%;
+}
+
+.Joueur13
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 395px;
+    left : 31%;
+}
+
+.Joueur14
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 395px;
+    left : 62%;
+}
+
+.Joueur15
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 345px;
+    left : 20%;
+}
+
+.Joueur16
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 345px;
+    left : 73%;
+}
+
+.Joueur17
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 296px;
+    left : 30%;
+}
+
+.Joueur18
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 296px;
+    left : 60%;
+}
+
+.Joueur19
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 255px;
+    left : 82%;
+}
+
+.Joueur20
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 255px;
+    left : 10%;
+}
+
+.Joueur21
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 243px;
+    left : 35%; 
+}
+
+.Joueur22
+{
+    transform: rotate(180deg);
+    position: absolute;
+    z-index: 3;
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    top : 243px;
+    left : 56%; 
 }
